@@ -7,7 +7,7 @@
     const menuItems = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Contact', href: '/Contact' },
     {
         name: 'Solutions',
         href: '/solutions',
@@ -34,15 +34,12 @@
 
     return (
         <nav className="navbar">
-            
-                <div className="flex justify-start px-4 font-bold text-lg text-[#034897]">
-                    Battery App
-                </div>
-           
-
-        <div className="flex justify-center items-center px-4 sm:px-6 relative"> {/* Changed to justify-center */}
+         
+        <div className="flex justify-center  items-center px-4 sm:px-6 relative"> {/* Changed to justify-center */}
             {/* Logo or Brand (optional) */}
-            
+            <div className=" logo font-bold text-2xl ">
+                    EShElL<br></br>
+            </div>
             {/* Hamburger Menu for Mobile */}
             <button
             className="hamburger sm:hidden"
@@ -53,7 +50,7 @@
             <span />
             <span />
             </button>
-
+           
             {/* Navbar Menu */}
             <ul className={`navbar-menu${isMobileMenuOpen ? ' open' : ''}`}>
             {menuItems.map((item) => (
