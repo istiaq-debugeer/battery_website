@@ -12,8 +12,8 @@
         name: 'Solutions',
         href: '/solutions',
         dropdown: [
-        { name: 'Battery Storage', href: '/solutions/battery-storage' },
-        { name: 'Solar Integration', href: '/solutions/solar-integration' },
+        { name: 'Battery Storage', href: '/solutions/' },
+        { name: 'Solar Integration', href: '/solutions/' },
         { name: 'EV Charging', href: '/solutions/ev-charging' },
         ],
     },
